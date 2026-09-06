@@ -186,7 +186,7 @@ export default function App() {
           gap: '16px',
           color: 'var(--text-muted)'
         }}>
-          <h2 style={{ fontSize: '1.4rem', color: 'var(--text-main)' }}>Welcome to Medical RAG Clinical Platform</h2>
+          <h2 style={{ fontSize: '1.4rem', color: 'var(--text-main)' }}>Welcome to CareTrace Clinical Platform</h2>
           <p style={{ fontSize: '0.9rem' }}>Select an existing patient profile or create a new one to start clinical analysis.</p>
         </main>
       )}

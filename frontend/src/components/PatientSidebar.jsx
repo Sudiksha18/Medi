@@ -88,7 +88,7 @@ export default function PatientSidebar({
         </div>
         <div>
           <h2 style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--text-main)', letterSpacing: '-0.02em', margin: 0 }}>
-            MediRAG
+            CareTrace
           </h2>
           <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: '4px' }}>
             <Activity size={12} color="var(--primary-teal)" /> Dual-LLM Verifier
