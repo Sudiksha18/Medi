@@ -1,4 +1,4 @@
-# Medical RAG Clinical Platform
+# CareTrace Clinical Platform
 
 An educational full-stack prototype for asking evidence-backed questions about a **selected patient's** medical records. It accepts PDF, image, and text records; converts them into searchable chunks; retrieves only chunks belonging to the active patient; generates a cited answer; and runs a second LLM pass to audit that answer against the retrieved evidence.
 
@@ -16,6 +16,8 @@ The repository uses synthetic Synthea EHR data for its included dataset and demo
 | Governance | Query/audit logging, thumbs-up/down feedback, a small in-memory semantic response cache, and a deterministic regex-based PHI sanitizer for selected patterns. |
 
 ## Architecture
+
+![Medical RAG architecture](./architecture.png)
 
 ```text
 PDF / image / text upload
